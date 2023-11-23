@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 test1
 annisa
-=======
-coba conflict
->>>>>>> a5722a3e083b077ed78fbd012eeac902c50b35a6
