@@ -1,3 +1,6 @@
+![image](https://github.com/annisaferdeaniw/Sanber51-Cypress-Kelompok6/assets/148175430/fe5b8a2f-7477-45aa-9d20-84ae529aa5f7)
+
+
 # Sanber51-Cypress-Kelompok6
 
 - Annisa Ferdeani Widyastika
