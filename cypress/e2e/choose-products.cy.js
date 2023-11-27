@@ -39,7 +39,7 @@ describe('choose product(s)', () => {
         // Memeriksa apakah teks elemen mengandung kata 'Compression Short'
         .contains('Compression Short');     
     });
-    it.only('From Best Seller and click from the rating', () => {
+    it('From Best Seller and click from the rating', () => {
         cy.visit('')
         // Temukan dan pilih produk
         cy.get(':nth-child(2) > .product-item-info > .product-item-details > .product-reviews-summary > .rating-summary > .rating-result').first().click();
