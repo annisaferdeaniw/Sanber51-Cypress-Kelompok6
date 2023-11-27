@@ -23,12 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-Cypress.Commands.add("random-email", () => {
-    function randomEmail(){
-        const randomString = Math.random().toString(36).substring(2, 10)
-        const email = randomString+"@gmail.com"
-        return email
-      }
-    
-      let useremail = randomEmail()
-})
