@@ -1,6 +1,6 @@
 describe('choose product(s)', () => {
     it('From Best Seller and click from the image', () => {
-        cy.visit('https://magento.softwaretestingboard.com/')
+        cy.visit('')
         // Temukan dan pilih produk
         cy.get(':nth-child(1) > .product-item-info > .product-item-photo > .product-image-container > .product-image-wrapper > .product-image-photo').first().click();
         // Verifikasi elemen-elemen yang seharusnya muncul
@@ -21,7 +21,7 @@ describe('choose product(s)', () => {
       })
     it('Pilih dari hasil search', () => {
         // Buka situs web
-        cy.visit('https://magento.softwaretestingboard.com/');
+        cy.visit('');
         // Click search bar
         cy.get('#search').first().click();
         // Ketik keyword dan click enter
@@ -40,7 +40,7 @@ describe('choose product(s)', () => {
         .contains('Compression Short');     
     });
     it.only('From Best Seller and click from the rating', () => {
-        cy.visit('https://magento.softwaretestingboard.com/')
+        cy.visit('')
         // Temukan dan pilih produk
         cy.get(':nth-child(2) > .product-item-info > .product-item-details > .product-reviews-summary > .rating-summary > .rating-result').first().click();
         // Verifikasi bahwa elemen yang seharusnya muncul setelah diklik tidak ada atau tidak terlihat
