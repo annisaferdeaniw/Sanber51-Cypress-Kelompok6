@@ -26,7 +26,6 @@ const Man = "Hero";
 const newQuantity = 2;
 
 
-
 describe("Shopping Cart Page", () => {
   beforeEach(() => {
     Navigation.visitHomepage();
