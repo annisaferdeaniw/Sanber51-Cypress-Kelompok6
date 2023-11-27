@@ -3,11 +3,11 @@
 
 # Sanber51-Cypress-Kelompok6
 
-- Annisa Ferdeani Widyastika
-- Asma Audah
-- Muhammad Alfiannur
-- Randyansyah
-- Ilham Hafizh Wanditama
+- Annisa Ferdeani Widyastika (Login)
+- Asma Audah (Choose product(s))
+- Muhammad Alfiannur (Proceed to Checkout)
+- Randyansyah (Create an Account)
+- Ilham Hafizh Wanditama (View and Update Shopping Cart)
 
 ## Task
 
