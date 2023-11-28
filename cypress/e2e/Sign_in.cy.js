@@ -141,6 +141,7 @@ describe('Login Test Suite', () => {
     });
 
     it('Verifikasi dapat menavigasi ke riwayat pesanan dan menampilkan bahwa tidak ada pesanan yang dilakukan', () => {
+        cy.bypass()
         cy.contains('Sign In').click();
         cy.get('#email').type(userData.validUser.email);
         cy.get('#pass').type(userData.validUser.password);

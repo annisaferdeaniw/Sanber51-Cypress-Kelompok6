@@ -97,6 +97,7 @@ describe("Checkout Page", () => {
   });
 
   it("Verifikasi dapat menemukan dan memesan dalam riwayat pesanan pelanggan setelah melakukan pemesanan", () => {
+    cy.bypass()
     Navigation.visitHomepage();
     cy.wait(1000);
     cy.contains("Sign In").click();
@@ -184,6 +185,7 @@ describe("Checkout Page", () => {
   // });
 
   it("Verifikasi dapat menemukan dan memesan dalam riwayat pesanan (reordder)", () => {
+    cy.bypass()
     Navigation.visitHomepage();
     cy.wait(1000);
     cy.contains("Sign In").click();

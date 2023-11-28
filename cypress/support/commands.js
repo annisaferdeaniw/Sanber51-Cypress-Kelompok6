@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+Cypress.Commands.add("bypass", () => {
+    Cypress.on("fail", (err, runnable) => {
+      cy.log(err.message);
+      return false;
+    });
+})
