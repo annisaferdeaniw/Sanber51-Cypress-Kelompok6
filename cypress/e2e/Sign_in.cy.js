@@ -81,6 +81,7 @@ describe('Login Test Suite', () => {
     });
 
     it('Verifikasi dapat mengubah password', () => {
+        cy.bypass()
         cy.contains('Sign In').click();
         cy.get('#email').type(userData.validUser.email);
         cy.get('#pass').type(userData.validUser.password);
