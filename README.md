@@ -4,7 +4,7 @@
 # Sanber51-Cypress-Kelompok6
 
 - Annisa Ferdeani Widyastika (Login + Choose products)
-- Asma Audah 
+- Asma Audah (file choose-products)
 - Muhammad Alfiannur (Proceed to Checkout + Choose products)
 - Randyansyah (Create an Account + Choose products)
 - Ilham Hafizh Wanditama (View and Update Shopping Cart + Choose products)
