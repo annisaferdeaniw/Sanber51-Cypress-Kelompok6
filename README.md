@@ -3,11 +3,11 @@
 
 # Sanber51-Cypress-Kelompok6
 
-- Annisa Ferdeani Widyastika (Login + Choose products)
+- Annisa Ferdeani Widyastika (Login)
 - Asma Audah (file choose-products)
-- Muhammad Alfiannur (Proceed to Checkout + Choose products)
-- Randyansyah (Create an Account + Choose products)
-- Ilham Hafizh Wanditama (View and Update Shopping Cart + Choose products)
+- Randyansyah (Create an Account)
+- Ilham Hafizh Wanditama (View and Update Shopping Cart)
+-  Muhammad Alfiannur (Proceed to Checkout)
 - Intan 
 ## Task
 
