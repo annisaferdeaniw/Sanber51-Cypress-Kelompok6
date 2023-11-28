@@ -97,7 +97,7 @@ describe("Checkout Page", () => {
   });
 
   it("Verifikasi dapat menemukan dan memesan dalam riwayat pesanan pelanggan setelah melakukan pemesanan", () => {
-    cy.bypass()
+    cy.bypass();
     Navigation.visitHomepage();
     cy.wait(1000);
     cy.contains("Sign In").click();
@@ -148,44 +148,8 @@ describe("Checkout Page", () => {
     cy.wait(1000);
   });
 
-  // it("Verifikasi apakah faktur dibuat dan dikirim ke pelanggan setelah melakukan pemesanan", () => {
-  //   Navigation.visitHomepage();
-  //   cy.wait(1000);
-  //   cy.contains("Sign In").click();
-  //   cy.get("#email").type(userData.validUser.email);
-  //   cy.get("#pass").type(userData.validUser.password);
-  //   cy.get("#send2").as("btn").click();
-  //   cy.wait(5000);
-  //   cy.get(".showcart > .counter").should("be.visible");
-  //   cy.wait(1000);
-  //   cy.get(".minicart-wrapper > .action").click();
-  //   cy.wait(5000);
-  //   cy.get(mini_list).click();
-  //   cy.wait(1000);
-  //   cy.get(".cart-summary").should("be.visible");
-  //   cy.get(".checkout-methods-items > :nth-child(1) > .action").click();
-  //   cy.get("#shipping > .step-title")
-  //     .should("be.visible")
-  //     .should("contain", "Shipping Address");
-  //   cy.wait(1000);
-  //   cy.get(".shipping-address-item").should("contain", "651651");
-  //   cy.wait(1000);
-  //   cy.get("#label_method_flatrate_flatrate").click();
-  //   cy.get(".button.action.continue.primary").click();
-  //   cy.get(".payment-method-content").should("be.visible");
-  //   cy.get(".ship-via")
-  //     .should("contain", "Flat Rate - Fixed")
-  //     .should("be.visible");
-  //   cy.get(
-  //     ".payment-method-content > :nth-child(4) > div.primary > .action"
-  //   ).click();
-  //   cy.get(".checkout-success")
-  //     .should("be.visible")
-  //     .should("contain", "Your order number is");
-  // });
-
   it("Verifikasi dapat menemukan dan memesan dalam riwayat pesanan (reordder)", () => {
-    cy.bypass()
+    cy.bypass();
     Navigation.visitHomepage();
     cy.wait(1000);
     cy.contains("Sign In").click();
